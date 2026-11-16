@@ -1,0 +1,21 @@
+# 内部资料 / 客户数据：开源前请确认已脱敏或移出
+# 真实日志、协议矩阵等，体积大且含客户信息
+testdata/
+# 需求评估等内部文档
+docs/需求评估-v0.1.md
+docs/需求评估-v0.2.md
+# 早期探索脚本，含客户文件名与报文细节
+analysis/
+
+# 通用
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+dist/
+build/
+*.log
+.env
+.env.*
